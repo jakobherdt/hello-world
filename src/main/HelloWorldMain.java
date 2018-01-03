@@ -19,5 +19,8 @@ public class HelloWorldMain {
 		
 		String test = ": here are some changes";
 		System.out.println("Hello World "+test);
+		
+		String randomString = "qwgsudkjfgkleavnlsdkb uilsabvklsd";
+		System.out.println(randomString);
 	}
 }
