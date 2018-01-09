@@ -13,9 +13,9 @@ public class HelloWorldMain {
 	}
 
 	public static void main(String[] args) throws ParseException {
-		HelloWorldMain hwm = new HelloWorldMain();
+		HelloWorldMain hello = new HelloWorldMain();
 		EmptyClass emptyClassObj = new EmptyClass();
-		System.out.println(hwm.parseDate("2017-10-26T07:34:57.213228+00:00"));
+		System.out.println(hello.parseDate("2017-10-26T07:34:57.213228+00:00"));
 		
 		
 		String test = ": here are some changes";
