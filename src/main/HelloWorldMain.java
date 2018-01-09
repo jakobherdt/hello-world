@@ -14,6 +14,7 @@ public class HelloWorldMain {
 
 	public static void main(String[] args) throws ParseException {
 		HelloWorldMain hwm = new HelloWorldMain();
+		EmptyClass emptyClassObj = new EmptyClass();
 		System.out.println(hwm.parseDate("2017-10-26T07:34:57.213228+00:00"));
 		
 		
@@ -22,5 +23,7 @@ public class HelloWorldMain {
 		
 		String randomString = "qwgsudkjfgkleavnlsdkb uilsabvklsd";
 		System.out.println(randomString);
+		
+		System.out.println(emptyClassObj.syso());
 	}
 }
